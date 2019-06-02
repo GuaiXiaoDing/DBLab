@@ -15,7 +15,9 @@
 ## 2、简单查询
 ### （1）查询学生表（student）中第2-6条记录。
 ID|name|dept_name|tot_cred
-> select * from student limit 1, 5;
+> select * 
+from student 
+limit 1, 5;
 ### （2）查询学生表（student）中部门名称（dept_name）含有“sci”(不限大小写)的所有记录。
 ID|name|dept_name|tot_cred
 > Select * from student where dept_name like '%sci%';
